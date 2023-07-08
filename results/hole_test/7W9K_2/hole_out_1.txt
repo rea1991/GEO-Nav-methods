@@ -1,0 +1,227 @@
+ *** Program HOLE ***
+ 
+ If results of this run are reported or published, please
+ cite the publication listed below.
+ For the HOLE program:
+   Smart, O.S., Goodfellow, J.M., Wallace, B.A. (1993). 
+   The pore dimensions of gramicidin A. 
+   Biophys. J., 65, 2455-2460.
+ 
+ Originally written by Oliver Smart at Birkbeck College from April 1992.
+ Copyright 1993-2005 Oliver Smart
+ Copyright 2014-2015 SmartSci Limited.
+ Copyright 2016 Oliver Smart.
+ 
+ For help on HOLE suite see  http://www.holeprogram.org/
+ 
+ HOLE release 2.2.005 (07 August 2016) 
+ 
+ usage subject to Apache License, Version 2.0 
+ see http://www.apache.org/licenses/LICENSE-2.0 
+
+ Control variables read:
+coord input.pdb
+radius ../../rad/simple.rad
+sphpdb hole_out_1.sph
+endrad 10.
+cpoint 218.6958 218.9728 242.179
+cvect 0.68381 -0.56435 -0.4625
+
+
+ Input pdb filename read as:    'input.pdb'
+ Input vdW radius file read as: '../../rad/simple.rad'
+ point in channel:  218.696 218.973 242.179
+ channel vector:      0.684  -0.564  -0.463
+ sampling distance between planes:    0.250
+
+ graphics conditions:
+ binary plot output file name: NONE
+ Dot density:    10
+ Draw dots?           T
+ Draw close contacts? F
+ Draw centre line?    T
+ Produce spikes rather than dots? F
+ Seed for random number generator:         0 (0 means value set by program)
+ Radius above which a result is regarded as an 'end':  10.000
+ Pdb format file for sphere centres: hole_out_1.sph
+
+ Monte Carlo conditions:
+  no of steps:  1000
+  maximum displacement   0.100 angs
+  'kT' initial   0.100 angs
+ The spherebox and capsule options are turned off.
+ (No molqpt card so will not write qpt file of the molecule)
+ No IGNORE card read so will read all residue types
+ no SHORTO card read so will produce full textual output
+ As no PEGRAT card was found will not produce PEG polymer exclusion graph
+ (No 2DMAPS card specified so will not produce 2D property maps)
+ Have not found a CUT card.  Normal calculation using
+   Cutoff lists with a cutsize=       1.000
+   (if you wish to turn off option use a CUT -1 card)
+
+ Have read     7 bond radius records and
+               9 vdW radius records.
+ From file: ../../rad/simple.rad
+
+ Have read 13785 atom records.
+ From file: input.pdb
+ Will not produce graphical output
+
+ Have opened file for pdb format output of sphere centres:  hole_out_1.sph
+  Some routines (e.g. conn) need vectors normal to cvect: 
+     EAST Zero degrees angle is along vector    0.730   0.529   0.433
+     NORTH  90 degrees angle is along vector   -0.000   0.634  -0.773
+
+  Seed integer used by ran # generator on this run   19165211
+
+ highest radius point found:
+  at point  220.759 220.081 243.877
+  closest atom surface    4.885   OD1 ASP A  902
+  2nd closest surface     4.886   CB  ASP A 1355
+  found on step  998
+  this is also current point
+  no. of rejections          300
+ stored as     0
+
+ highest radius point found:
+  at point  223.449 221.283 245.847
+  closest atom surface    5.377   OD2 ASP A 1355
+  2nd closest surface     5.382   OD1 ASP A  902
+  found on step  992
+  this is also current point
+  no. of rejections          293
+ stored as     1
+
+ highest radius point found:
+  at point  229.989 223.577 252.177
+  closest atom surface    9.521   OE1 GLN A 1363
+  2nd closest surface     9.531   NE2 GLN A 1363
+  found on step  998
+  this is also current point
+  no. of rejections          183
+ stored as     2
+
+ highest radius point found:
+  at point  234.696 222.485 259.928
+  closest atom surface   14.127   NE2 GLN A 1363
+  2nd closest surface    14.702   CD1 LEU A 1373
+  found on step 1000
+  this is also current point
+  no. of rejections          164
+ This is an end! (radius above  10.0 angs)
+ highest radius point found:
+  at point  220.149 219.817 243.839
+  closest atom surface    4.887   CD  GLU A  297
+  2nd closest surface     4.887   OD2 ASP A  901
+  found on step  335
+ current point:
+  at point  220.150 219.817 243.838
+  closest atom surface    4.887   CD  GLU A  297
+  2nd closest surface     4.887   OD2 ASP A  901
+  found on step  991
+  no. of rejections          254
+ stored as    -1
+
+ highest radius point found:
+  at point  218.924 218.820 243.784
+  closest atom surface    4.769   CG  GLU A  297
+  2nd closest surface     4.773   CB  ASP A 1355
+  found on step  999
+  this is also current point
+  no. of rejections          189
+ stored as    -2
+
+ highest radius point found:
+  at point  218.777 218.490 244.509
+  closest atom surface    4.748   CD  GLU A  297
+  2nd closest surface     4.749   OE1 GLU A  307
+  found on step  931
+  this is also current point
+  no. of rejections          279
+ stored as    -3
+
+ highest radius point found:
+  at point  218.503 217.973 245.276
+  closest atom surface    4.687   OE1 GLU A  307
+  2nd closest surface     4.691   CD  GLU A  297
+  found on step  999
+  this is also current point
+  no. of rejections          303
+ stored as    -4
+
+ highest radius point found:
+  at point  219.456 216.092 249.522
+  closest atom surface    6.220   CD  GLU A  297
+  2nd closest surface     6.231   CG  GLU B  130
+  found on step 1000
+  this is also current point
+  no. of rejections          264
+ stored as    -5
+
+ highest radius point found:
+  at point  224.062 216.805 256.000
+  closest atom surface   10.473   CG2 THR A 1354
+  2nd closest surface    10.560   OG1 THR A 1354
+  found on step  998
+  this is also current point
+  no. of rejections          247
+ This is an end! (radius above  10.0 angs)
+ 
+ N.b. Graph information routine (HOGRAP) differs 
+        markedly from previous versions!
+       Information now is written from -ve end
+       to +ve in one pass
+ 
+ Explanation of the meaning of each column: 
+ First column "cenxyz.cvec" is the coordinate in the
+   direction of the channel vector i.e. if the channel
+   vector is in z (0 0 1) then it is the z coordinate.
+ The second column "radius" is the hole pore radius 
+   (as defined in the Biophys J 1993) article).
+ The third column "cen_line_D" is the distance 
+   measured along the pore centre line - with the 
+   first point found set to zero. This was the first
+   thing that I used to measure the distance along a pore
+   but "cenxyz.cvec" is a much better general measure. 
+   However, by comparing changes in this distance to changes in '   "cenxyz.cvec" one can get a measure of how straight a 
+   channel is.
+ The fourth column "sum{s/(area)}" is useful in conductance
+   prediction -
+   basically it is the sum of the thickness of each slab
+   divided by its area. HOLE uses this measure to estimate
+   the macroscopic conductance of a channel.
+ If any of this worries you one can see the "raw" results
+   of a standard hole run by producing a sphpdb file and 
+    directly looking at the results.
+ cenxyz.cvec      radius  cen_line_D sum{s/(area point sourc
+   -87.28900     6.22019    -8.76306     0.00103   (sampled)
+   -87.16400     5.10258    -6.39229     0.00256 (mid-point)
+   -87.03900     4.68704    -4.02152     0.00437   (sampled)
+   -86.91400     4.69983    -3.53913     0.00617 (mid-point)
+   -86.78900     4.74769    -3.05674     0.00793   (sampled)
+   -86.66400     4.74776    -2.65156     0.00970 (mid-point)
+   -86.53900     4.76898    -2.24638     0.01145   (sampled)
+   -86.41400     4.78917    -1.45637     0.01318 (mid-point)
+   -86.28900     4.88668    -0.66636     0.01485   (sampled)
+   -86.16400     4.88432    -0.33318     0.01652 (mid-point)
+   -86.03900     4.88474     0.00000     0.01819   (sampled)
+   -85.91400     4.90255     1.77202     0.01984 (mid-point)
+   -85.78900     5.37652     3.54403     0.02122   (sampled)
+   -85.66400     7.89567     8.23704     0.02186 (mid-point)
+   -85.53900     9.52125    12.93005     0.02229   (sampled)
+
+ Minimum radius found:      4.687 angstroms.
+
+
+
+ For spherical probe approach, The geometric factor
+         F= sum(ds/area) along channel is    0.022 angstroms**-1
+ This yields a macroscopic predicted molar conductance of:
+   (1/rho)*(100/F)= (4500/rho) pS,
+   where rho is the conductivity of 1M permeant ion in ohm m.
+ N.B. this is a macroscopic conductance - an overestimate 
+ Empirically corrected conductances currently only available
+ With the CAPSULE option (although its not that stable!)
+ For 1M KCl rho= 1/12 (ohm m), So Gmacro= 54000 pS/M.
+  (TAG      1   Rmin=     4.68704   Gmacro= 53825.32702 Conn_Gmacro=    -1.00000 ).
+ HOLE: normal completion
