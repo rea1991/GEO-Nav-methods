@@ -1,5 +1,8 @@
-# GEO-Nav: evaluation measures
+# GEO-Nav: A geometric dataset of voltage-gated sodium channels
 
+This repository shares the output files of Chanalyzer and HOLE, together with the tools that were used to produced the results in [1]. The dataset and the ground truths behind the benchmark can be found at:
+
+https://github.com/rea1991/GEO-Nav
 
 ### Before you start
 This python implementation is tasked to analyze and compare the Nav channel retrieved by two computational methods (Chanalyzer and HOLE) for the models of the GEO-Nav dataset. The following external modules are required: `networkx` and `matplotlib`.
@@ -34,5 +37,5 @@ It return one PNG file representing:
 Example output files can be found in the `example` folder.
 For a better visual evaluation, the `example` folder also contains the OFF file representing the triangulated surface of the considered model.
 
-### Refererences
-[1] A. Raffo, U. Fugacci, S. Biasotti. GEO-Nav: a geometric dataset of voltage-gated sodium channels. arXiv preprint arXiv:2306.12348, 2023. url: https://arxiv.org/abs/2306.12348
+### References
+[1]   A. Raffo, U. Fugacci, "GEO-Nav: A geometric dataset of voltage-gated sodium channels", *Computers & Graphics*, 2023. DOI: 10.1016/j.cag.2023.06.023.
