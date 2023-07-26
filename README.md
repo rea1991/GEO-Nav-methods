@@ -11,6 +11,8 @@ This python implementation is tasked to analyze and compare the Nav channel retr
 It requires the centerlines (endowed with radius values of the maximal inscribed balls) of the Nav channel of the considered model retrieved by performing Chanalyzer and HOLE.
 
 Example input files can be found in the `example` folder.
+To run it, once you have downloaded the repository, open the terminal, reach the folder `GEO-Nav-methods-main` and execute the following command line `python GEO-Nav_evaluation_measures.py`
+The results will appear in the folder `example/output`.
 
 ### Parameters
 - HOLE adopts a process of user-assisted cavity localization. GEO-Nav dataset contains two Nav channel retrieved by HOLE by providing as initial information the two initial points and directions retrieved as the entrances of the channel by Chanalyzer. Parameter `number` can be freely set as 1 or as 2 for choosing among the two Nav channels returned by HOLE.
