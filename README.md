@@ -40,4 +40,4 @@ Example output files can be found in the `example` folder.
 For a better visual evaluation, the `example` folder also contains the OFF file representing the triangulated surface of the considered model.
 
 ### References
-[1]   A. Raffo, U. Fugacci, "GEO-Nav: A geometric dataset of voltage-gated sodium channels", *Computers & Graphics*, 2023. DOI: 10.1016/j.cag.2023.06.023.
+[1]   A. Raffo, U. Fugacci, "GEO-Nav: A geometric dataset of voltage-gated sodium channels", *Computers & Graphics*, vol. 115, pp. 285-295, 2023. DOI: 10.1016/j.cag.2023.06.023.
