@@ -15,7 +15,7 @@ To run it, once you have downloaded the repository, open the terminal, reach the
 The results will appear in the folder `example/output`. 
 
 ### Parameters
-- HOLE adopts a process of user-assisted cavity localization. GEO-Nav dataset contains two Nav channel retrieved by HOLE by providing as initial information the two initial points and directions retrieved as the entrances of the channel by Chanalyzer. Parameter `number` can be freely set as 1 or as 2 for choosing among the two Nav channels returned by HOLE. Switching this parameter to 2 when analysing the example files (5EK0) produces the plot in Figure 7.
+- HOLE adopts a process of user-assisted cavity localization. GEO-Nav dataset contains two Nav channel retrieved by HOLE by providing as initial information the two initial points and directions retrieved as the entrances of the channel by Chanalyzer. Parameter `number` can be freely set as 1 or as 2 for choosing among the two Nav channels returned by HOLE. Switching this parameter to 2 when analysing the example files (5EK0) produces the plot in Figure 7 in [1].
 - Parameter `sC` (analogously, `sH`) sets the number of points adopted for sampling the spheres representing the Nav channel returned by Chanalyzer (analogously, by HOLE).
 - In order to run the program on models different than the one considered in the example: comment lines 150 and 164, uncomment lines 151 and 165, and choose the structure to be considered by setting the `model` parameter. An analogous suitable modification has to be performed to run the program on the toy models.  
 
