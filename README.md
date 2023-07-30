@@ -12,7 +12,7 @@ It requires the centerlines (endowed with radius values of the maximal inscribed
 
 Example input files can be found in the `example` folder.
 To run it, once you have downloaded the repository, open the terminal, reach the folder `GEO-Nav-methods-main` and execute the following command line `python GEO-Nav_evaluation_measures.py`
-The results will appear in the folder `example/output`.
+The results will appear in the folder `example/output`. To analyse output files 1 or 2 from HOLE, set `number` to be 1 or 2. 
 
 ### Parameters
 - HOLE adopts a process of user-assisted cavity localization. GEO-Nav dataset contains two Nav channel retrieved by HOLE by providing as initial information the two initial points and directions retrieved as the entrances of the channel by Chanalyzer. Parameter `number` can be freely set as 1 or as 2 for choosing among the two Nav channels returned by HOLE.
